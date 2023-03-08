@@ -1,13 +1,13 @@
 {
-  "name": "node-js-getting-started",
+  "name": "legacy-park-tennos",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Website for Legacy Park Tennis.",
   "engines": {
     "node": "16.x"
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "node test.js"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "got": "^11.3.0",
+    "nodemon": "^2.0.21",
     "tape": "^4.7.0"
   },
   "repository": {
@@ -23,9 +24,9 @@
     "url": "https://github.com/heroku/node-js-getting-started"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "legacy",
+    "park",
+    "tennis"
   ],
   "license": "MIT"
 }
